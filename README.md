@@ -1,12 +1,34 @@
-# React + Vite
+# Personenverwaltung Frontend
+Dieses Projekt ist das Frontend einer einfachen Personenverwaltungsanwendung. Es wurde mit React und Vite erstellt und kommuniziert mit einem Spring Boot Backend über REST-APIs. Mit dieser Anwendung kannst du:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Eine Liste von Personen anzeigen und durchsuchen
 
-Currently, two official plugins are available:
+- Neue Personen über ein Popup hinzufügen
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Ausgewählte Personen löschen
 
-## Expanding the ESLint configuration
+Hinweis: Stelle sicher, dass dein Backend (Spring Boot) auf http://localhost:8080 läuft, da dieses Frontend darauf zugreift.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Voraussetzungen
+- Node.js (mindestens Version 14.x oder höher)
+
+- npm (wird normalerweise mit Node.js installiert)
+
+## Installation
+1. Repository klonen oder Projektordner öffnen
+2. Abhängigkeiten installieren
+
+Führe folgenden Befehl aus, um alle benötigten Pakete zu installieren:
+
+```bash
+npm install
+```
+
+## Entwicklungsmodus starten
+Um den Entwicklungsserver zu starten, führe den folgenden Befehl im Projektordner aus:
+
+```bash
+npm run dev
+```
+Dies startet den Vite-Entwicklungsserver. Anschließend kannst du dein Projekt im Browser unter http://localhost:5174 aufrufen.
+
